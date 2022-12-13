@@ -9,7 +9,7 @@ public class DemoApplication {
 
 	@GetMapping("/get")
 	Public string sayHello(){
-		return "Hello Spring Boot docker"
+		return "Hello Spring Boot docker";
 	}
 
 }
