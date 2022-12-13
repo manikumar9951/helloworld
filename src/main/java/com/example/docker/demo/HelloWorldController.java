@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	@GetMapping("/get")
-	Public String sayHello(){
+	public String sayHello(){
 		return "Hello Spring Boot docker";
 	}
 
